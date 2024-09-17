@@ -26,8 +26,9 @@ Maak hiervoor een eenvoudige "Hello World":
         return String.format("Hello %s!", name);
     }
 ```
-Roep dit aan met http://localhost:8080/hello?myName=superstudent
-Zo'n methode die je via een url kunt aanroepen noemen we een endpoint. Andere namen zijn o.a. een controller of een resource genoemd.
+Roep dit aan met http://localhost:8080/hello?myName=superstudent. 
+In eerste instantie werkt dit niet. Je moet de klasse namelijk nog annoteren met @RestController.
+Zo'n methode die je via een url kunt aanroepen noemen we een endpoint. Andere namen zijn o.a. een controller of een resource.
 
 # 3 Je programma opdelen
 Voordat we dieper ingaan op endpoints en json, gaan we eerst het programma netjes opdelen.
